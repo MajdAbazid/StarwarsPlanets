@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
+*Es wurde kein E2E tests durchgeführt.
+Es wurde ein ParentComponent Planet-List und zwei ChildComponents erstellt. die Planetslist wird über SWAPI importiert und die Namen an der ChildComponent (Planet) weitergeleitet
+danach wurde ein Eventemmitet von dem Childcomponent(planet), das zu dem Clicken auf das Component selbst reagiert und der Siblingcomponent notifiziert mit dem Planet ermittelt. damit zeigt der SiblingComponent die Details zu der Planet, der auf der Liste geclickt wurde.
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +31,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
