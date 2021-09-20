@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="flex">
+                    <div><input type="text" class="form-control" placeholder="Enter Planet Name"
+                            [(ngModel)]="searchInput"></div>
+                    <!--<input type="text" class="form-control" [(ngModel)]="planetName">-->
+
+                    <div><button type="submit" class="btn btn-success" (click)="search()">Search Planet</button></div>
+                </div>
+                <hr>
+                <app-planet [planet]="planets" *ngFor="let x of planets;let i = index" [name]="x.name"
+                    (click)="cTOp(i)">
+                </app-planet>
+            </div>
+            <div class="col-md-7">
+                <app-planet-details [planet]="planets" [pNr]=planetnumber *ngIf="value">
+                </app-planet-details>
+            </div>
+            <div>
+                <ul *ngIf="planets.length >= 1">
+                    <li>
+                        <h3></h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+</div>

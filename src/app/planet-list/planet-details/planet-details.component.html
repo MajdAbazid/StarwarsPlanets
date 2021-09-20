@@ -1,0 +1,43 @@
+<div [hidden]="display">
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="" alt="" class="img-responsive">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>{{planet[pNr].name}}</h1>
+        </div>
+    </div>
+</div>
+
+<ul class="list-group list-group-flush">
+    <li class="list-group-item"><strong>Rotation Period:</strong> {{planet[pNr].rotation_period}}</li>
+    <li class="list-group-item"><strong>Orbital Period: </strong> {{planet[pNr].orbital_period}}</li>
+    <li class="list-group-item"><strong>Diameter: </strong> {{planet[pNr].diameter}}</li>
+    <li class="list-group-item"><strong>Climate: </strong> {{planet[pNr].climate}}</li>
+    <li class="list-group-item"><strong>Gravity: </strong> {{planet[pNr].gravity}}</li>
+    <li class="list-group-item"><strong>Terrain: </strong> {{planet[pNr].terrain}}</li>
+    <li class="list-group-item"><strong>Surface Water: </strong> {{planet[pNr].surface_water}}%</li>
+    <li class="list-group-item"><strong>Population: </strong> {{planet[pNr].population}}</li>
+</ul>
+
+<!--div class="row">
+        <div class="col-xs-12">
+            <h1>{{planet[pNr].name}}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            {{planet[pNr].name}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            sdasd 
+        </div>
+    </div-->
