@@ -30,10 +30,20 @@ export class PlanetListComponent implements OnInit {
     this.hide();
   }
 
-  ngOnChanges(changes: SimpleChanges) {}
+  ngOnChanges(changes: SimpleChanges) {
+  }
 
   search() {
+    if (this.searchInput === '' && this.planetArray.length === 60){
 
+      return
+    }
+    this.planetArray = []
+    if (this.searchInput === ''){
+
+      this.fetchPlanets()
+      return
+    }
     this.http
       .get<any>('https://swapi.dev/api/planets/?search=' + this.searchInput)
       .pipe(
@@ -50,6 +60,7 @@ export class PlanetListComponent implements OnInit {
   }
 
   private fetchPlanets(pageURL?: any) {
+    this.planets = [];
     if (!pageURL) {
       pageURL = this.url;
     }
