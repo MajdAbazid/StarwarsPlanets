@@ -2,7 +2,6 @@ import { Component, Input, OnInit, SimpleChanges } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Planet } from '../planet.model';
-import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-planet-list',
@@ -14,9 +13,8 @@ export class PlanetListComponent implements OnInit {
   name: string;
   value: boolean;
   searchInput = '';
-  planetArray: Planet[] = [];
 
-  url = 'https://swapi.dev/api/planets';
+  url = 'https://swapi.dev/api/planets/?page=';
   @Input() planetnumber: number;
 
   constructor(private http: HttpClient) {}
@@ -52,52 +50,28 @@ export class PlanetListComponent implements OnInit {
       });
   }
 
-  private fetchPlanets(pageURL?: any) {
-    if (!pageURL) {
-      pageURL = this.url;
-    }
-
-    this.http
-      .get<any>(pageURL)
-      .pipe(
-        map((res: any) => {
-          for (const x in res.results) {
-            this.planetArray.push(res.results[x]);
-          }
-          if (res.next) {
-            this.fetchPlanets(res.next);
-          }
-          return this.planetArray;
-        })
-      )
-      .subscribe((any: any) => {
-        this.planets = any;
-      });
-  }
-
-  fetchArray() {
+  private fetchPlanets() {
+    let x = 1;
     const planetArray: Planet[] = [];
-    this.http
-      .get<any>(this.url)
-      .pipe(
-        map((res: any) => {
-          for (const x in res.results) {
-            planetArray.push(res.results[x]);
-          }
-          return planetArray;
-        })
-      )
-      .subscribe((any: any) => {
-        this.planets = any;
-      });
+    do {
+      this.http
+        .get<any>(this.url + x++)
+        .pipe(
+          map((res: any) => {
+            for (const x in res.results) {
+              planetArray.push(res.results[x]);
+            }
+            return planetArray;
+          })
+        )
+        .subscribe((any: any) => {
+          this.planets = any;
+        });
+    } while (x != 7);
   }
 
   cTOp(n: number) {
     this.planetnumber = n;
-  }
-
-  returnPlanets(url: any) {
-    const planetArray: Planet[] = [];
   }
 
   hide() {
