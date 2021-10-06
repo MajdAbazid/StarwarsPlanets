@@ -15,6 +15,7 @@ export class PlanetListComponent implements OnInit {
   value: boolean;
   searchInput = '';
   planetArray: Planet[] = [];
+  searchArray: Planet[] = [];
 
   url = 'https://swapi.dev/api/planets';
   @Input() planetnumber: number;
@@ -32,19 +33,15 @@ export class PlanetListComponent implements OnInit {
   ngOnChanges(changes: SimpleChanges) {}
 
   search() {
-    if (this.searchInput === '') {
-      this.fetchPlanets();
-      return;
-    }
-    const planetArray: Planet[] = [];
+
     this.http
       .get<any>('https://swapi.dev/api/planets/?search=' + this.searchInput)
       .pipe(
         map((res: any) => {
           for (const x in res.results) {
-            planetArray.push(res.results[x]);
+            this.planetArray.push(res.results[x]);
           }
-          return planetArray;
+          return this.planetArray;
         })
       )
       .subscribe((any: any) => {
@@ -68,23 +65,6 @@ export class PlanetListComponent implements OnInit {
             this.fetchPlanets(res.next);
           }
           return this.planetArray;
-        })
-      )
-      .subscribe((any: any) => {
-        this.planets = any;
-      });
-  }
-
-  fetchArray() {
-    const planetArray: Planet[] = [];
-    this.http
-      .get<any>(this.url)
-      .pipe(
-        map((res: any) => {
-          for (const x in res.results) {
-            planetArray.push(res.results[x]);
-          }
-          return planetArray;
         })
       )
       .subscribe((any: any) => {
