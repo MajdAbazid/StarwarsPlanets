@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PlanetDetailsComponent } from './planet-list/planet-details/planet-details.component';
 import { PlanetListComponent } from './planet-list/planet-list.component';
-import { PlanetComponent } from './planet-list/planet/planet.component';
+import { PlanetComponent } from './planet-list/planet (1)/planet.component';
 
 @NgModule({
   declarations: [
