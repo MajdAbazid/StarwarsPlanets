@@ -14,7 +14,7 @@ describe("homepage",() => {
   cy.wait('@planets');
   cy.wait// wait for the response to be simulated and the data are displayed on the screen
 
-  // expect(status).to.eq(200); // TODO try use with wait => then expect!
+  // expect(status).to.eq(200); // TODO try use with wait => then expect! yes
   cy.get("app-planet").should("have.length", 60);// look for particular element on the page
   });
 
