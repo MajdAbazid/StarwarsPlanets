@@ -1,0 +1,353 @@
+{
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/karma.conf.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/karma.conf.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/block-navigation.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/block-navigation.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/prettify.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/prettify.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/sorter.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/coverage/lcov-report/sorter.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/integration/main.test.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/integration/main.test.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/plugins/index.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/plugins/index.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/support/commands.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/support/commands.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/support/index.js": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/cypress/support/index.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/main.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/main.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/polyfills.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/polyfills.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/main.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/main.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/polyfills.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/polyfills.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/test.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/test.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.module.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/app.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet.model.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet.model.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/environments/environment.prod.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/environments/environment.prod.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/environments/environment.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/environments/environment.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.module.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/app.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet.model.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet.model.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/environments/environment.prod.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/environments/environment.prod.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/environments/environment.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/environments/environment.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/backup ts datei.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/backup ts datei.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-list.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-list.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-list.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-list.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/backup ts datei.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/backup ts datei.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-list.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-list.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-list.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-list.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet (1)/planet.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet (1)/planet.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet (1)/planet.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet (1)/planet.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-details/planet-details.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-details/planet-details.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-details/planet-details.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/instrumented/app/planet-list/planet-details/planet-details.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet (1)/planet.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet (1)/planet.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet (1)/planet.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet (1)/planet.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-details/planet-details.component.spec.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-details/planet-details.component.spec.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-details/planet-details.component.ts": {
+    "path": "C:/Users/Majd-/Desktop/StarwarsPlanets/src/app/planet-list/planet-details/planet-details.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  }
+}
