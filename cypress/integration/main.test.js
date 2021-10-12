@@ -3,14 +3,17 @@ describe("homepage",() => {
     cy.fixture('planets.json').as("planetsJSON");//simulating the response of the http request. access the file
     cy.server(); //simulating the server
     cy.route('https://swapi.dev/api/planets', "@planetsJSON").as("planets");/*linking our planets.json to http request*/
-    cy.visit('/');
-    //cy.intercept('api/planets', "@planetsJSON").as("planets");TODO migrate from server/route to intercept
+    //cy.intercept('api/planets').as("planets");TODO migrate from server/route to intercept
+    cy.visit('//');
+
   });
 
   it('only accepts a string value', ()=>{
-    const input2 =  Math.random().toString(36).substr(2, 2);
-    cy.get("input").should('have.class', 'form-control').type(input2);
-    cy.get('app-planet').contains(input2);
+    const input = 'Tat';
+    cy.wait(2000);
+    cy.get("input").should('have.class', 'form-control').type(input);
+    cy.get("button").click();
+    cy.get('app-planet').contains(input);
   });
 
 
