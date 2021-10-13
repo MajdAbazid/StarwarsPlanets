@@ -1,5 +1,5 @@
 # StarwarsPlanets
-![Codecov](https://img.shields.io/badge/<Code_Coverage>-<95%>-<color>)
+![Codecov](https://img.shields.io/badge/<Code_Coverage>-<95%>-<COLOR>)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 Es wurde ein ParentComponent Planet-List und zwei ChildComponents erstellt. die Planetslist wird über SWAPI importiert und die Namen an der ChildComponent (Planet) weitergeleitet
