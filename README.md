@@ -1,5 +1,4 @@
 # StarwarsPlanets
-https://img.shields.io/npm/v/npm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
