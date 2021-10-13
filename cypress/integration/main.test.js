@@ -28,6 +28,18 @@ describe("homepage",() => {
   cy.get("app-planet").should("have.length", 60);// look for particular element on the page
   });
 
+  it('should display a list of 62 Children', ()=>{
+
+    cy.contains("Galaxy");
+
+    cy.wait('@planets');
+    //cy.wait// wait for the response to be simulated and the data are displayed on the screen
+
+    // expect(status).to.eq(200); // TODO try use with wait => then expect! yes
+
+    cy.get('.col-md-5').children().should("have.length", 62);// look for particular element on the page
+  });
+
   it('should display planet details', ()=>{
   cy.wait('@planets');
   cy.get("app-planet").click({multiple: true});
