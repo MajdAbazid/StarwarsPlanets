@@ -33,4 +33,12 @@ jobs:
       run: |
         npm install
         npm ci
-        npm test
+        
+    - name: install browsers
+      run: npx playwright install
+      
+    - name: install dep
+      run: npx playwright install-deps
+      
+    - name: run test
+      run: npx playwright test traceview
